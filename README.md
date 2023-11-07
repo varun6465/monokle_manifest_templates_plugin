@@ -1,0 +1,1 @@
+# monokle_manifest_templates_plugin
