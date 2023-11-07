@@ -1,16 +1,15 @@
 {
-    "name": "Tempalte plugins",
-    "description": "Custom Tempalte plugins",
-    "version": "1.0.0",
-    "author": "varun6465",
-    "repository": "https://github.com/varun6465/monokle_manifest_templates_plugin.git",
-    "monoklePlugin": {
-        "modules":[
-            {
-                "type":"Tempalte",
-                "path":"my-pod-basic"
-            }
-        ]
-    }
-
+  "name": "Template plugins",
+  "description": "Custom templates plugin",
+  "version": "1.0.0",
+  "author": "varun6465",
+  "repository": "https://github.com/varun6465/monokle_manifest_templates_plugin",
+  "monoklePlugin": {
+    "modules": [
+      {
+        "type": "template",
+        "path": "my-pod-basic"
+      }
+    ]
+  }
 }
