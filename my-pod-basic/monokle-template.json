@@ -1,0 +1,25 @@
+{
+    "name": "basic kubernetes pod",
+    "id": "com.github.varun6465.plugin.my-pod-basic",
+    "author": "varun6465",
+    "version":"1.0.0",
+    "description":"creates a pod for the specific Image",
+    "respository":"",
+    "type":"vanilla",
+    "forms":[
+        {
+            "name":"pod settings",
+            "description":"specify the settings for your pod",
+            "schema": "form-schema.json",
+            "uiSchema":"form-ui-schema.json"
+        }
+    ],
+    "manifests":[
+        {
+            "filepath":"template.yaml"
+        }
+    ],
+    "resultMessage":"pod rsource created successfully:))!",
+    "helpurl": "https://github.com/varun6465/monokle_manifest_templates_plugin.git"
+    
+}
